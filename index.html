@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Tracking Alimtalk Demo</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="landing">
+      <section>
+        <h1>상담 신청 랜딩페이지</h1>
+        <p>신청 완료 시 알림톡 발송과 광고 전환 이벤트가 실행되는 구조 예시입니다.</p>
+      </section>
+      <form id="lead-form">
+        <input id="name" placeholder="이름" required />
+        <input id="phone" placeholder="연락처" required />
+        <select id="category"><option>상담 희망</option><option>자료 요청</option></select>
+        <button>신청하기</button>
+      </form>
+      <pre id="log"></pre>
+    </main>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
+
